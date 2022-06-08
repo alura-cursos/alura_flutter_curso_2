@@ -71,7 +71,23 @@ class _FormScreenState extends State<FormScreen> {
                   ),
                 ),
               ),
+              Container(
+                height: 100,
+                width: 72,
+                decoration: BoxDecoration(
+                  color: Colors.blue,
+                  borderRadius: BorderRadius.circular(10),
+                  border: Border.all(width: 2, color: Colors.blue),
+                ),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(10),
+                  child: Image.network(
+                    imageController.text,
 
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              ),
               ElevatedButton(
                 onPressed: () {
                   print(nameController.text);
