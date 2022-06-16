@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:nosso_primeiro_projeto/screens/form_screen.dart';
 import 'package:nosso_primeiro_projeto/screens/initial_screen.dart';
 
 void main() {
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const FormScreen(),
+      home: const InitialScreen(),
     );
   }
 }
