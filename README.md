@@ -1,16 +1,48 @@
-# nosso_primeiro_projeto
+![Thumbnail GitHub](https://raw.githubusercontent.com/alura-cursos/alura_flutter_curso_2/master/Readme%20Template%20(2).png)
 
-A new Flutter project.
+# Flutter: Controller, Navegação e Estados
 
-## Getting Started
+O Curso básico de Flutter que ensina aos estudantes como: 
+-> Criar multiplas telas 
+-> Navegar entre telas
+-> Produzir um Formulário
+-> Configurar Validação
+-> Compreender os conceitos básicos de Contexto e Estado
 
-This project is a starting point for a Flutter application.
+## 🔨 Projeto: Organizador de Tarefas
 
-A few resources to get you started if this is your first Flutter project:
+O projeto do curso consiste em criar uma nova tela ao projeto Organizador de Tarefas, com o intuito de produzir um formulário que adiciona uma nova tarefa customizada!
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+![](https://raw.githubusercontent.com/alura-cursos/alura_flutter_curso_2/master/flutter2_gif.gif)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ✔️ Técnicas e tecnologias
+
+**Veja mais de perto o que você aprenderá sobre** :
+- `TextField`: Widget de Campo de Texto.
+- `TextFormField`: Widget de Campo de Texto com Validação.
+- `Form`: Widget de Formulário que cuida da Validação de todos os TextFormFields.
+- `controller`: parâmetro de TextField que manipula os dados.
+- `ErrorBuilder`: função do Widget Image que permite lidar com erros.
+- `keyboardType`: parâmetro do TextField que permite alteração de teclados.
+- `validator`: parâmetro do TextFormField que permite adicionar validação.
+- `SnackBar`: Widget do Scaffold, perfeito para mostrar informações.
+- `Navegação`: conceito de mudança de tela.
+- `Rotas`: nomenclatura para Telas.
+- `Inherited Widget`: Widget com habilidade de lidar e transmitir dados.
+- `context`: conceito de localização e ambientação em relação a diferentes telas no Flutter.
+ 
+
+
+## 🛠️ Abrir e rodar o projeto
+
+**Para executar este projeto você precisa:**
+
+- Ter uma IDE, que pode ser o  [Android Studio](https://developer.android.com/) instalado na sua máquina
+- Ter a [SDK do Flutter](https://docs.flutter.dev/get-started/install) na versão 3.0.0
+
+
+## 📚 Mais informações do curso
+
+Gostou do projeto e quer conhecer mais? Você pode [acessar o curso]() que desenvolve o projeto desde o começo!
+
+Esse curso faz parte da [formação de Flutter da Alura]()
