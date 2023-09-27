@@ -25,7 +25,7 @@ class _InitialScreenState extends State<InitialScreen> {
           Navigator.push(
             context,
             MaterialPageRoute(
-              bbuilder: (contextNew) => FormScreen(taskContext: context,),
+              builder: (contextNew) => FormScreen(taskContext: context,),
             ),
           );
         },
